@@ -11,12 +11,12 @@ export default function Home() {
         <meta name="description" content="portfolio by Pablo Mateos" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Navbar/>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi there! I´m Pablo
+          Hi! I´m Pablo
         </h1>
         <h5 className={styles.subtext}>Full Stack Web Developer</h5>
       </main>
