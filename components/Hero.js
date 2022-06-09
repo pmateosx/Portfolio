@@ -5,7 +5,6 @@ const HeroStyle = styled.div `
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
     height: 50vh;
     padding: 2rem;
     margin-top: 2rem;

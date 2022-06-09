@@ -12,6 +12,7 @@ const StyledNavbar = styled.nav`
     font-size: 0.8rem;
     padding: 1rem 2rem;
     background-color: black;
+    z-index: 100;
 `
 const StyledUl = styled.ul`
     list-style: none;
