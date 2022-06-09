@@ -1,9 +1,10 @@
-.title{
-  font-size: 4rem;
-  color: white;
-}
+
 
 .subtext {
   color: grey;
   font-size: 1.3rem;
+}
+
+.container {
+  margin-top: 5rem;
 }
