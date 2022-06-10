@@ -52,7 +52,7 @@ const Works = () => {
                     priority = "false"
                 />
                 <div>
-                    <WorkTitle>Monefy</WorkTitle>
+                    <WorkTitle>Moneyfy</WorkTitle>
                     <WorkSubtitle>React | JavaScript | MongoDB | Express | Node JS</WorkSubtitle>
                 </div>
             </a>

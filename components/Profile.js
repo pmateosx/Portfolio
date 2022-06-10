@@ -27,6 +27,7 @@ const SubTitle = styled.h5`
 const Paragraph = styled.p`
     color: white;
     line-height: 1.3rem;
+    width: 100%;
 `
 const StyledUl = styled.ul`
     display: grid;
@@ -47,6 +48,9 @@ const LinksContainer = styled.div`
         margin-right: 2rem;
     }
 `
+const Section = styled.section`
+    width: 100%;
+`
 
 const Profile = () => {
     return (
@@ -58,14 +62,14 @@ const Profile = () => {
             height={300}
             priority="false"
             />
-            <section>
+            <Section >
                 <SubTitle>My name is</SubTitle>
                 <H2> Pablo Mateos Luis</H2> 
-                <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae lorem quis elit cursus dignissim. Curabitur quis purus a purus ultrices efficitur sit amet ut nibh. Fusce arcu ipsum, blandit sed mollis nec, efficitur vel ipsum.</Paragraph>
-            </section>
-            <section>
+                <Paragraph>I`m a Full Stack Developer with an Art Director background. I like to find new ways to say things, face new challenges and always build something new. I love team play and consider it fundamental to reach the best results.</Paragraph>
+            </Section >
+            <Section >
                 <SectionTitle>Programming Skills</SectionTitle>
-                <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae lorem quis elit cursus dignissim.</Paragraph>
+                <Paragraph>Here are a few technologies I`ve been working with recently: </Paragraph>
                 <StyledUl>
                     <li>JavaScript</li>
                     <li>ReactJs</li>
@@ -76,7 +80,7 @@ const Profile = () => {
                     <li>Sass</li>
                     <li>Next</li>
                 </StyledUl>
-            </section>
+            </Section >
             <LinksContainer>
                 <SectionTitle>Links</SectionTitle>
                     <a href="https://github.com/pmateosx" target="_blank" rel="noopener noreferrer">Github</a>
