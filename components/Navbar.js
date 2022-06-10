@@ -1,5 +1,7 @@
 import styled from '@emotion/styled'
-import Link from 'next/link'
+import { Link } from 'react-scroll'
+import { useEffect, useState } from 'react'
+import { animateScroll as scroll } from 'react-scroll'
 
 const StyledNavbar = styled.nav`
     position: fixed;
@@ -24,29 +26,55 @@ const StyledUl = styled.ul`
 `
 const StyledLink = styled(Link)`
     text-decoration: none;
+    cursor: pointer;
+
     &:hover{
         border-bottom: 2px solid white;
+        padding-bottom: 1rem;
     }
+`
+const Logo = styled.h4`
+    font-weight: 500;
+    cursor: pointer;
 `
 
 const Navbar = () => {
+    const [scrollNav, setScrollNav] = useState(false)
+
+    const changeNav = () => {
+        if (window.scrollY >= 80) {
+            setScrollNav(true);
+        } else {
+            setScrollNav(false);
+        }
+        
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav)
+    }, [])
+    
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
+    
     return (
         <StyledNavbar>
-            <StyledLink href='/'>PMATTX_</StyledLink>
+            <Logo onClick={toggleHome}>PMATTX_</Logo>
             <StyledUl>
                 <li>
-                    <StyledLink href='/about'>
-                        <a>About</a>
+                    <StyledLink to='about' smooth={true} duration={500} spy={true}>
+                        About
                     </StyledLink>
                 </li>
                 <li>
-                    <StyledLink href='/works'>
-                        <a>Works</a>
+                    <StyledLink to='work' smooth={true} duration={500} spy={true}>
+                        Works
                     </StyledLink>
                 </li>
                 <li>
-                    <StyledLink href='/contact'>
-                        <a>Contact</a>
+                    <StyledLink to='contact' smooth={true} duration={500} spy={true}>
+                        Contact
                     </StyledLink>
                 </li>
             </StyledUl>

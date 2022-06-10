@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Contact from '../components/Contact'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
@@ -20,8 +20,9 @@ export default function Home() {
 
       <Layout>
           <Hero/>
-          <Profile/>
-          <Works/>
+          <Profile />
+          <Works />
+          <Contact />
       </Layout>
     </div>
   )

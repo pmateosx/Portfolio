@@ -27,7 +27,7 @@ const WorkSubtitle = styled.h4`
 `
 const Works = () => {
     return (
-        <Container>
+        <Container id="work">
             <H2>Works</H2>
             <StyledImage
                 src="/dfbloaduq/image/upload/v1646852615/dev-site/whbdgwykbg0asomhczje.jpg"

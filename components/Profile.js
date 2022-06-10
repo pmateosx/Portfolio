@@ -50,7 +50,7 @@ const LinksContainer = styled.div`
 
 const Profile = () => {
     return (
-        <StyledProfile>
+        <StyledProfile id="about">
             <StyledImage
             src="/dfbloaduq/image/upload/v1654794772/portfolio/foto_personal_linkedin_r1r0l3.jpg"
             alt="Pablo Mateos"
