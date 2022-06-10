@@ -22,6 +22,7 @@ const SubTitle = styled.h5`
     font-size: 1rem;
     text-align: left;
     margin-bottom: -1rem;
+    color: grey;
 `
 const Paragraph = styled.p`
     color: white;

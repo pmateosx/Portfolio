@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
 import Profile from '../components/Profile'
+import Works from '../components/Works'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Layout>
           <Hero/>
           <Profile/>
+          <Works/>
       </Layout>
     </div>
   )
