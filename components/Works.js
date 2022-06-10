@@ -31,13 +31,16 @@ const GridProjects = styled.div`
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 11px;
     grid-row-gap: 13px;
+    @media (max-width: 700px){ 
+        display: inline;
+    }
 `
 
 const Works = () => {
     return (
         <Container id="work">
             <H2>Works</H2>
-
+        <GridProjects>
             <a href="https://moneyfy.netlify.app/home" target="_blank" rel="noopener noreferrer">
                 <StyledImage
                     src="/dfbloaduq/image/upload/v1654857913/portfolio/mon2_uvswzx.jpg"
@@ -83,6 +86,7 @@ const Works = () => {
                     <WorkSubtitle>JavaScript | Canvas | CSS | HTML</WorkSubtitle>
                 </div>
             </a>
+            </GridProjects>
         </Container>
     )
 }
