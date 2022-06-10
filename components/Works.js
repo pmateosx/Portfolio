@@ -25,10 +25,19 @@ const WorkSubtitle = styled.h4`
     margin-bottom: 2rem;
     margin-top: 0;
 `
+const GridProjects = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 11px;
+    grid-row-gap: 13px;
+`
+
 const Works = () => {
     return (
         <Container id="work">
             <H2>Works</H2>
+
             <a href="https://moneyfy.netlify.app/home" target="_blank" rel="noopener noreferrer">
                 <StyledImage
                     src="/dfbloaduq/image/upload/v1654857913/portfolio/mon2_uvswzx.jpg"

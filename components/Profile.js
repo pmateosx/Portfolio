@@ -81,7 +81,7 @@ const Profile = () => {
                 <SectionTitle>Links</SectionTitle>
                     <a href="https://github.com/pmateosx" target="_blank" rel="noopener noreferrer">Github</a>
                     <a href="https://www.linkedin.com/in/pablo-mateos-luis/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                    <Link href={'../media/cv-pablo-mateos.pdf'}>
+                    <Link href={'/media/cv-pablo-mateos.pdf'}>
                         <a target="_blank" rel="noreferrer">CV in PDF</a>
                     </Link>
             </LinksContainer>
