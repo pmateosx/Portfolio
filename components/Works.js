@@ -29,47 +29,51 @@ const Works = () => {
     return (
         <Container id="work">
             <H2>Works</H2>
-            <StyledImage
-                src="/dfbloaduq/image/upload/v1654857913/portfolio/mon2_uvswzx.jpg"
-                alt="Monefy preview"
-                width={600}
-                height={500}
-                layout="responsive"
-                objectFit= "cover"
-                priority = "false"
-            />
-            <div>
-                <WorkTitle>Monefy</WorkTitle>
-                <WorkSubtitle>React | JavaScript | MongoDB | Express | Node JS</WorkSubtitle>
-            </div>
-
-            <StyledImage
-                src="/dfbloaduq/image/upload/v1654858647/portfolio/devsite_tpfiwc.jpg"
-                alt="DevSite preview"
-                width={600}
-                height={500}
-                layout="responsive"
-                objectFit= "cover"
-                priority = "false"
-            />
-            <div>
-                <WorkTitle>DevSite</WorkTitle>
-                <WorkSubtitle> JavaScript | MongoDB | Express | Node JS</WorkSubtitle>
-            </div>
-
-            <StyledImage
-                src="/dfbloaduq/image/upload/v1654859212/portfolio/pixx_dapcht.jpg"
-                alt="PixelKeys preview"
-                width={600}
-                height={500}
-                layout="responsive"
-                objectFit= "cover"
-                priority = "false"
-            />
-            <div>
-                <WorkTitle>PixelKeys</WorkTitle>
-                <WorkSubtitle>JavaScript | Canvas | CSS | HTML</WorkSubtitle>
-            </div>
+            <a href="https://moneyfy.netlify.app/home" target="_blank" rel="noopener noreferrer">
+                <StyledImage
+                    src="/dfbloaduq/image/upload/v1654857913/portfolio/mon2_uvswzx.jpg"
+                    alt="Monefy preview"
+                    width={600}
+                    height={500}
+                    layout="responsive"
+                    objectFit= "cover"
+                    priority = "false"
+                />
+                <div>
+                    <WorkTitle>Monefy</WorkTitle>
+                    <WorkSubtitle>React | JavaScript | MongoDB | Express | Node JS</WorkSubtitle>
+                </div>
+            </a>
+            <a href="https://devsite-ironhack.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <StyledImage
+                    src="/dfbloaduq/image/upload/v1654858647/portfolio/devsite_tpfiwc.jpg"
+                    alt="DevSite preview"
+                    width={600}
+                    height={500}
+                    layout="responsive"
+                    objectFit= "cover"
+                    priority = "false"
+                />
+                <div>
+                    <WorkTitle>DevSite</WorkTitle>
+                    <WorkSubtitle> JavaScript | MongoDB | Express | Node JS</WorkSubtitle>
+                </div>
+            </a>
+            <a href="https://pmateosx.github.io/Pixel-Keys/" target="_blank" rel="noopener noreferrer">
+                <StyledImage
+                    src="/dfbloaduq/image/upload/v1654859212/portfolio/pixx_dapcht.jpg"
+                    alt="PixelKeys preview"
+                    width={600}
+                    height={500}
+                    layout="responsive"
+                    objectFit= "cover"
+                    priority = "false"
+                />
+                <div>
+                    <WorkTitle>PixelKeys</WorkTitle>
+                    <WorkSubtitle>JavaScript | Canvas | CSS | HTML</WorkSubtitle>
+                </div>
+            </a>
         </Container>
     )
 }
