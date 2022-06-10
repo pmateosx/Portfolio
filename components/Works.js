@@ -28,7 +28,7 @@ const WorkSubtitle = styled.h4`
 const GridProjects = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-column-gap: 11px;
     grid-row-gap: 13px;
     @media (max-width: 700px){ 
