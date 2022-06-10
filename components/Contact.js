@@ -29,9 +29,11 @@ const Contact = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque</p>
             <StyledUl>
                 <li>
-                <a href = "mailto: pmateos805@gmail.com">pmateos805@gmail.com</a>
+                    <a href = "mailto: pmateos805@gmail.com">pmateos805@gmail.com</a>
                 </li>
-                <li>+34 620 488 401</li>
+                <li>
+                    <a href="tel:620 488 401">+34 620 488 401</a>
+                </li>
             </StyledUl>
         </StyledContact>
     )
