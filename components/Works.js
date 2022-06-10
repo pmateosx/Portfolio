@@ -30,8 +30,8 @@ const Works = () => {
         <Container id="work">
             <H2>Works</H2>
             <StyledImage
-                src="/dfbloaduq/image/upload/v1646852615/dev-site/whbdgwykbg0asomhczje.jpg"
-                alt="Pablo Mateos"
+                src="/dfbloaduq/image/upload/v1654857913/portfolio/mon2_uvswzx.jpg"
+                alt="Monefy preview"
                 width={600}
                 height={500}
                 layout="responsive"
@@ -44,8 +44,8 @@ const Works = () => {
             </div>
 
             <StyledImage
-                src="/dfbloaduq/image/upload/v1646852615/dev-site/whbdgwykbg0asomhczje.jpg"
-                alt="Pablo Mateos"
+                src="/dfbloaduq/image/upload/v1654858647/portfolio/devsite_tpfiwc.jpg"
+                alt="DevSite preview"
                 width={600}
                 height={500}
                 layout="responsive"
@@ -54,12 +54,12 @@ const Works = () => {
             />
             <div>
                 <WorkTitle>DevSite</WorkTitle>
-                <WorkSubtitle>React | JavaScript | MongoDB | Express | Node JS</WorkSubtitle>
+                <WorkSubtitle> JavaScript | MongoDB | Express | Node JS</WorkSubtitle>
             </div>
 
             <StyledImage
-                src="/dfbloaduq/image/upload/v1646852615/dev-site/whbdgwykbg0asomhczje.jpg"
-                alt="Pablo Mateos"
+                src="/dfbloaduq/image/upload/v1654859212/portfolio/pixx_dapcht.jpg"
+                alt="PixelKeys preview"
                 width={600}
                 height={500}
                 layout="responsive"
@@ -68,7 +68,7 @@ const Works = () => {
             />
             <div>
                 <WorkTitle>PixelKeys</WorkTitle>
-                <WorkSubtitle>React | JavaScript | MongoDB | Express | Node JS</WorkSubtitle>
+                <WorkSubtitle>JavaScript | Canvas | CSS | HTML</WorkSubtitle>
             </div>
         </Container>
     )
