@@ -28,7 +28,9 @@ const Contact = () => {
             <H2>Get in touch</H2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque</p>
             <StyledUl>
-                <li>pmateos805@gmail.com</li>
+                <li>
+                <a href = "mailto: pmateos805@gmail.com">pmateos805@gmail.com</a>
+                </li>
                 <li>+34 620 488 401</li>
             </StyledUl>
         </StyledContact>

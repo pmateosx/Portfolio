@@ -79,9 +79,11 @@ const Profile = () => {
             </section>
             <LinksContainer>
                 <SectionTitle>Links</SectionTitle>
-                    <Link href={'#'}><a>Github</a></Link>
-                    <Link href={'#'}><a>Linkedin</a></Link>
-                    <Link href={'#'}><a>CV in PDF</a></Link>
+                    <a href="https://github.com/pmateosx" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://www.linkedin.com/in/pablo-mateos-luis/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                    <Link href={'../media/cv-pablo-mateos.pdf'}>
+                        <a target="_blank" rel="noreferrer">CV in PDF</a>
+                    </Link>
             </LinksContainer>
         </StyledProfile>
     )
