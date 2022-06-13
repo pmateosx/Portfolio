@@ -26,7 +26,7 @@ const Contact = () => {
     return(
         <StyledContact id="contact">
             <H2>Get in touch</H2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque</p>
+            <p>Contact me if you want to do a project or if you want me to tell you about one of my projects.</p>
             <StyledUl>
                 <li>
                     <a href = "mailto: pmateos805@gmail.com">pmateos805@gmail.com</a>
